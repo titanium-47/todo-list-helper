@@ -1,0 +1,1 @@
+A bot that communicates between notion and discord to help me track things on my todo list.
