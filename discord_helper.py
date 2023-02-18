@@ -5,7 +5,6 @@ class DiscordClient(discord.Client):
     def __init__(self, user, notion_client):
         self.notion_client = notion_client
         self.user = user
-        super()
 
     async def on_ready(self):
         print(f'{self.client.user} has connected to Discord')
