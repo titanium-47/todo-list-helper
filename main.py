@@ -16,7 +16,5 @@ def main():
     discord_client = DiscordClient(DISCORD_USERNAME, notion_client)
 
     discord_client.run(DISCORD_TOKEN)
-
-
 if __name__ == "__main__":
     main()
